@@ -1,0 +1,103 @@
+/* Osnovni stilovi */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #f5f5f5; /* Svijetlo siva pozadina */
+    color: black; /* Crna boja teksta */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid #3366cc; /* Tamnija plava linija ispod trake */
+}
+
+header .logo-image {
+    width: 200px; /* Povećana širina logo-a */
+    height: auto; /* Visina se automatski prilagođava */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold; /* Podebljani tekst */
+}
+
+/* Stanje kada je link aktivan ili posjećen */
+nav ul li a:visited {
+    color: #3366cc; /* Tamni plavi link nakon što je posjećen */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #3366cc; /* Tamni plavi link kada se pređe mišem */
+}
+
+nav ul li a:active {
+    color: #3366cc; /* Tamni plavi link kada je kliknut */
+}
+
+/* Sekcije */
+section {
+    padding: 40px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 3px solid #3366cc; /* Tamnija plava linija oko sekcija */
+}
+
+h1 {
+    color: #3366cc; /* Tamniji plavi naslovi */
+}
+
+/* Sekcija "O meni" */
+section#about-me {
+    background-color: #3366cc; /* Tamna plava pozadina u sekciji "O meni" */
+    color: white; /* Bijeli tekst u sekciji "O meni" */
+}
+
+/* Slika u sekciji "O meni" */
+.profile-image {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #3366cc; /* Tamnija plava pozadina footer-a */
+    color: white; /* Bijeli tekst u footer-u */
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+

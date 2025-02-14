@@ -77,6 +77,26 @@ footer {
     padding: 10px;
 }
 
+/* Istaknut dugme za preuzimanje CV-a */
+.download-cv {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 15px;
+    text-align: center;
+    background-color: #ff6600;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.download-cv:hover {
+    background-color: #cc5500;
+}
+
 /* Responzivni dizajn */
 @media (max-width: 768px) {
     header {
@@ -103,7 +123,12 @@ footer {
     .profile-image {
         width: 120px;
     }
+
+    .download-cv {
+        width: 80%;
+    }
 }
+
 
 
 
